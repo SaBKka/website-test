@@ -1,0 +1,170 @@
+/* საწყისები */
+:root
+{
+  --GoldColor: hsl(53, 47%, 59%);
+  --FotTxt: hsl(240, 2%, 43%);
+  --SectPcOlor: hsl(110, 5%, 56%);
+  --Black: hsl(0, 0%, 0%);
+  --PadNo: 1;
+  --MargNo: 1;
+}
+html,body,h1,h2,h3,h4,h5,h6,
+p,nav,ul,li,a,span
+{
+  margin: var(--MargNo);
+  padding: var(--PadNo);
+}
+/* test js */
+body
+{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main
+{
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  display: none;
+  transition: opacity 2s ease-in;
+}
+/* end off test js */
+
+/* საერთო */
+
+
+.row,
+.navigation ul,
+.header
+{
+  display: flex;
+}
+#canvas,
+#article-canvas,
+#article-canvas .same-latest-works,
+#footer-clients
+{
+  justify-content: center;
+}
+#canvas .logo
+{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+/* კერძო */
+#canvas
+{
+  margin-bottom: 50px;
+}
+.navigation ul
+{
+  list-style-type: none;
+}
+.navigation li
+{
+  padding: 0px 1.8rem;
+}
+.navigation a
+{
+  color: var(--Black); 
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+#canvas .canvas-title
+{
+  padding: 2.5rem 0;
+}
+.navigation ul
+{
+  padding: 1.5rem 15rem;
+  border: solid hsl(240, 2%, 43%) 1px;
+  border-right: none;
+  border-left: none;
+}
+.imige-binder img
+{
+  width: 76.5rem;  
+  height: 34rem;
+  padding: 0px 0px 4rem 0px;
+}
+#article-canvas header
+{
+  border-bottom: solid hsl(240, 2%, 43%) 1px;
+  margin-bottom: 30px;
+}
+#article-canvas  .same-latest-works h2
+{
+  font-size: 2.1rem;
+  color: hsl(240, 2%, 43%);
+}
+#article-canvas  .same-latest-works .latest
+{
+  color: hsl(53, 47%, 59%);
+}
+#article-canvas .same-latest-works
+{
+  padding: 1.2rem 0;
+  margin: 1.8rem 0;
+}
+#article-canvas .article-image .col img
+{
+  width: 19rem;
+}
+#article-canvas .article-image
+{
+  margin-bottom: 3.1rem;
+}
+.article-image .title
+{
+  margin-top: 1.25rem;
+}
+.article-image .title h3,p
+{
+  line-height: 1.5rem;
+}
+.article-image .title p
+{
+  color: hsl(240, 2%, 43%);
+}
+.article-image
+{
+  border-bottom: solid hsl(240, 2%, 43%) 1px;
+}
+.article-image .col
+{
+  padding: 0 0 4.5rem 0;
+}
+#footer-clients .what-client-say
+{
+  width: 32rem;
+  text-align: center;
+}
+#footer-clients .what-client-say h4
+{
+  font-size: 1.8rem;
+}
+#footer-clients .what-client-say h4,p,span
+{
+  line-height: 1.8rem;
+}
+#footer-clients
+{
+  padding: 1.8rem 0;
+}
+#footer-clients .what-client-say .client
+{
+  color: hsl(53, 47%, 59%);
+}
+#footer-clients .what-client-say .description
+{
+  color: hsl(240, 2%, 43%);
+  margin-top: 1.25rem;
+}
+#footer-clients .what-client-say .setve-jobs
+{
+  color: hsl(0, 0%, 0%);
+}
